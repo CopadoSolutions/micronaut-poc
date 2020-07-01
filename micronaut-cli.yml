@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.copado
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, data, data-jpa, docker, file-watch, gradle, h2, http-client, java, java-application, jdbc-hikari, junit, logback, netty-server, readme, shade, spring, spring-boot, spring-data-jpa, spring-web, yaml]

@@ -1,0 +1,20 @@
+micronaut:
+  application:
+    name: micronautPoc
+  server:
+    port: 9091
+
+redis.url: ${REDIS_URL}
+
+datasources:
+  default:
+    driverClassName: org.postgresql.Driver
+    url: ${POSTGRE_URL}
+    username: ${POSTGRE_USER}
+    password: ${POSTGRE_PWD}
+
+jpa:
+  default:
+    packages-to-scan:
+      - 'com.copado.micronautpoc'
+
